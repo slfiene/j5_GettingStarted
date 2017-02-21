@@ -5,5 +5,5 @@ const board = new five.Board({
 });
 
 board.on('ready', () => {
-    (new five.Led('P1-7')).strobe();
+    (new five.Led('GPIO18')).strobe();
 });
